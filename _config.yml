@@ -1,0 +1,134 @@
+# global settings
+# command 
+# jekyll serve --incremental
+# jekyll serve --incremental --host 0.0.0.0
+title: "My Englis Forum"
+description: "PT. Surabaya Mediatama - Media Campaign Specialist. Perusahaan Jasa agency Iklan Surabaya Jawa Timur. Iklan Radio, TV, Koran, Baliho, Banner, Video Tron, Google dan Youtube"
+url: https://www.surabaya-ad.com
+# url: http://127.0.0.1:4000
+mainurl: https://www.surabaya-ad.com
+# mainurl: http://127.0.0.1:4000
+loading_teks: PT. Surabaya Mediatama
+stylever: 22
+
+info_logourl: logo-sbyad.png
+info_logourlpp: pp-logo-sbyad.png
+info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
+#info_email: marketing.surabaya_ad@yahoo.com
+info_email: info@surabaya-ad.com
+info_whatsapp: 08123480077
+info_whatsapp2: 0818310004
+info_nomor: 031-5611808
+info_deskripsi: "<p>Surabaya Ad merupakan Perusahaan yang bergerak dibidang Advertising & Promotion dengan jangkauan bisnis 
+di seluruh Indonesia, di bawah bendera PT. Surabaya Mediatama yang didirikan pada tanggal 12 Maret 2003 berdasarkan SK Menteri Kehakiman dan HAM R.I. 
+Nomor : C-06883.HT.01.01.TH.2003. </p>
+<p>Surabaya Ad telah 15 tahun berkegiatan bisnis dalam industri kreatif di Indonesia, 
+baik Above The Line maupun Below The Line yang didukung oleh team berpengalaman dengan standart kerja terbaik dibidangnya.</p>"
+info_alamat: "Kencanasari Timur XV/6 Surabaya 60224"
+info_tel1: 031-5611808
+info_tel2: 031-5619989
+
+sosmed_facebook: https://www.facebook.com/surabayaad
+sosmed_twitter: https://twitter.com/Surabaya_Ad
+sosmed_instagram: https://www.instagram.com/surabayaad/
+
+facebook: https://www.facebook.com/surabayaad/
+twitter: 
+  username: Surabaya_Ad
+
+social:
+  name: Surabaya AD
+  links:
+    - https://www.facebook.com/surabayaad
+    - https://twitter.com/Surabaya_Ad
+    - https://www.instagram.com/surabayaad/
+    - https://plus.google.com/u/2/113355031675278304715
+
+author:
+  twitter: Surabaya_Ad
+  facebook: surabayaad
+  instagram: surabayaad
+
+lang: id_ID
+
+team_1:
+  - dir-300px.jpg|Nono Suparno|CEO
+  - dodo-w-zaman.jpg|Dodo W. Zaman|Managing Director
+  - white-300.jpg|Ria CH|Marketing Manager
+team_2:
+  - dwi-adi-c.jpg|Dwi Ady C.|Event Manager
+  - anton-ar.jpg|Anton R.|Creative Director
+  - white-300.jpg|Dony|Web programmer
+team_3:
+  - abdul-hamid.jpg|Abdul Hamid|Account Manager
+  - dwi-andika.jpg|Dwi Andika|Finance Manager
+  - tyas.jpg|Tyas Astuti|Media Planner
+# for another paging on team4
+team_4:
+  - dir-300px.jpg|Nono Suparno|CEO
+  - dodo-w-zaman.jpg|Dodo W. Zaman|Managing Director
+  - dwi-andika.jpg|Dwi Andika|Finance Manager
+  - ira.jpg|Ria CH|Marketing Manager
+  - dwi-adi-c.jpg|Dwi Ady C.|Event Manager
+  - anton-ar.jpg|Anton R.|Creative Director
+team_5:
+  - dony.jpg|Dony|Web programmer
+  - abdul-hamid.jpg|Abdul Hamid|Account Manager
+  - tyas.jpg|Tyas Astuti|Media Planner
+  - ifa.jpg|Ifa |Marketing Support
+  - rahmat.jpg|Rahmat Gibran|Project Officer
+  - danda-irawan.jpg|Danda Irwanda|Project Officer
+
+collections:
+  clients:
+    output: true
+    permalink: /:collection/:name
+
+client:
+  - yamaha.png|pt. surya timur sakti jatim
+  - semen-gresik.png|pt. semen gresik
+  - petrokimia-gresik.jpg|pt. petrokimia gresik
+  - dtc-wonokromo.jpg|pt. arwinto intan wijaya
+  - bg-junction.png|pt. sentral super perkasa
+  - nippon-paint.png|pt. nipsea paint and chemicals
+  - heinz-abc.jpg|heinz abc
+  - rs-phc.png|rs phc surabaya
+  - honshu.png|cv. guna multi selaras
+# baris 2 or else
+  - bank-indonesia.png|Bank Indonesia
+  - bank-mandiri.jpg|Bank Mandiri
+  - bank-bni.jpg|Bank BNI
+  - bank-bri.png|bank bri
+  - bank-jatim.png|bank jatim
+  - bank-bpr.jpg|bank bpr jatim
+  - cimb-niaga.png|bank niaga
+  - pegadaian.png|Pegadaian
+  - kanwil.png|Kanwil DJP Jatim I dan Jatim II
+# baris 3 or else
+  - pemprov-jatim.jpg|Pemprov Jatim
+  - kodya-surabaya.gif|Kotamadya Surabaya
+  - kab-malang.jpg|Kabupaten Malang
+  - kodya-batu.png|Kodya Batu
+  - kodya-pasuruan.png|Kodya Pasuruan
+  - dppka-sidoarjo.png|DPP KA Sidoarjo
+  - kemenkumham.png|Kemenkumham Jawa Timur
+  - kpu-jatim.jpg|KPU jatim
+  - kpu-jatim.jpg|KPU Bojonegoro
+# baris 4
+  - telkomsel.png|Telkomsel
+  - indosat.png|Indosat
+  - esia.jpg|Esia
+  - axis.jpg|Axis
+  - bacacepat.png|BacaCepat
+  - telkom.jpg|PT. telkom
+  - awaly.png|Awaly Fashion
+  - sarung-mangg.png|Sarung Mangga
+  - cakra.png|Cakra Tour
+  
+
+plugins:
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
